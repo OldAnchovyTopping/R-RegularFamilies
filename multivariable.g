@@ -1,5 +1,5 @@
 DeclareGlobalFunction( "FourObjectBound" );
-InstallGlobalFunction(FourLighterCharacters, function(weights)
+InstallGlobalFunction(FourObjectBound, function(weights)
     local all_e_powers, cyclo_power, g, weights_permuted, cyclotomic_order, powers_permutation, powers_base, sum_aggregate, this_summand, together, w, x, y;
 
     weights_permuted := [];
